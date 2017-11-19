@@ -1,0 +1,31 @@
+nao_birds_homepage:
+    path:     /birds
+    defaults: { _controller: NAOBirdsBundle:Default:index }
+
+nao_birds_taxref:
+    path: /taxref
+    defaults: { _controller: NAOBirdsBundle:TaxrefDataBase:index }
+
+nao_birds_getbirdsbyordre:
+  path: /getbirdsbyordre/
+  defaults: { _controller: NAOBirdsBundle:TestDataBaseAccess:ordre }
+
+nao_birds_getbirdsbycdnom:
+  path: /getbirdsbycdnom/
+  defaults: { _controller: NAOBirdsBundle:TestDataBaseAccess:cdnom }
+
+nao_birds_getbirdstables:
+  path: /birdstable/
+  defaults: { _controller: NAOBirdsBundle:TestTableBuilder:ordreTable}
+
+nao_birds_getbirdsbynomvern:
+  path: /getbirdsbynomvern/
+  defaults: { _controller: NAOBirdsBundle:TestDataBaseAccess:nomvern }
+
+nao_birds_test:
+  path: /test
+  defaults: { _controller: NAOBirdsBundle:Test:test }
+
+nao_birds_test1:
+  path: /test1/
+  defaults: { _controller: NAOBirdsBundle:Test:test1 }

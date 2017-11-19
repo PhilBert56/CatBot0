@@ -1,0 +1,26 @@
+NAO\ObservationsBundle\Entity\Observation:
+    type: entity
+    table: null
+    repositoryClass: NAO\ObservationsBundle\Repository\ObservationRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        observerId:
+            type: string
+            length: 255
+        birdId:
+            type: integer
+        latitude:
+            type: float
+        longitude:
+            type: float
+        isValidated:
+            type: boolean
+        validatorId:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

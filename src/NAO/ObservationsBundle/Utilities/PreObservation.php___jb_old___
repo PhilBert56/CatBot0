@@ -1,0 +1,21 @@
+<?php
+
+namespace NAO\ObservationsBundle\Entity;
+
+class PreObservation{
+
+
+private $observerId;
+private $latitude;
+private $longitude;
+private $codeTaille;
+private $codePlumes;
+private $codePattes;
+private $codeBec;
+
+
+
+
+
+
+}

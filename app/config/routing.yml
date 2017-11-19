@@ -1,0 +1,11 @@
+nao_observations:
+    resource: "@NAOObservationsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nao_birds:
+    resource: "@NAOBirdsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

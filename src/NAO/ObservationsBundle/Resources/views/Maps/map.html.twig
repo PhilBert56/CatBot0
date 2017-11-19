@@ -1,0 +1,66 @@
+<body onload="initMap()">
+<h2>SAISIE D'UNE OBSERVATION</h2>
+</br>
+    {{ form_start(preobservationForm ) }}
+
+    {{ form_errors(preobservationForm) }}
+
+    {{ form_widget(preobservationForm) }}
+
+    </br>
+    <div id="carte" style="width:50%; height:50%"></div>
+    </br>
+	<button type="submit" class ="pure-button">Confirmer l'observation</button>
+
+    {{ form_end(preobservationForm) }}
+
+
+        {% block javascript %}
+
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIqgTXv-Vjr43q72FdWxsflcUnFgQ6KM0&callback=initMap"></script>
+
+            <script type="text/javascript">
+
+            function initMap() {
+
+                var latitude = {{ preobservation.latitude}};
+                var longitude = {{ preobservation.longitude }};
+
+                var latlng = new google.maps.LatLng(latitude,longitude );
+
+                var options = {
+                    center: latlng,
+                    zoom: 17,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                };
+
+                var carte = new google.maps.Map(document.getElementById("carte"), options);
+
+                //création du marqueur
+                var marqueur = new google.maps.Marker({
+                    position: new google.maps.LatLng({{preobservation.latitude}}, {{preobservation.longitude}}),
+                    map: carte,
+                    draggable: true
+                });
+
+                google.maps.event.addListener(marqueur, 'dragend', function(event) {
+
+                    latitude = event.latLng.lat();
+                    longitude = event.latLng.lng();
+                    console.log('latitude = ', latitude, ' longitude = ', longitude);
+
+                    var latField = document.getElementById('observationsbundle_preobservation_latitude');
+                    latField.value = latitude;
+                    var lngField = document.getElementById('observationbundle_preobservation_longitude');
+                    lngField.value = longitude;
+
+                });
+
+            }
+
+        </script>
+
+
+        {% endblock %}>
+
+</body>

@@ -1,0 +1,13 @@
+services:
+#    nao_birds.example:
+#        class: NAO\BirdsBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    nao_birds.dbbirds:
+         class: NAO\BirdsBundle\Service\BirdsDataBase
+         arguments: ["@doctrine.orm.entity_manager"]
+    nao_birds.getbirds:
+         class: NAO\BirdsBundle\Service\GetBirdsFromDataBase
+         arguments: ["@doctrine.orm.entity_manager"]
+    nao_birds.birdstables:
+        class: NAO\BirdsBundle\Service\BirdsServices
+        arguments: ["@doctrine.orm.entity_manager"]
