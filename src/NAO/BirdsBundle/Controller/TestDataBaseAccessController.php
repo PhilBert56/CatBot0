@@ -12,20 +12,7 @@ class TestDataBaseAccessController extends Controller
      * @Route("/getbirdsbyordre/{ordre}", name = "getbirdsfromorder")
      */
 
-    public function ordreAction(Request $request)
-    {
-      $ordre = $request->query->get('ordre');
-echo ('ORDRE = '.$ordre);
 
-      $em = $this->getDoctrine()->getManager();
-      $dataBaseService = $this->container->get('nao_birds.getbirds');
-
-      $birds = $dataBaseService->getBirdsByOrdre($em, $ordre);
-dump($birds); die();
-
-      return $this->render('NAOBirdsBundle:default:index.html.twig');
-
-    }
 
 
     /**
@@ -60,7 +47,7 @@ dump($birds); die();
        $repository = $this->getDoctrine()->getRepository(Bird::class);
 
        $dataBaseService = $this->container->get('nao_birds.getbirds');
-
+echo('Nom ver = '.$nomVer.'</br>');
        $birds = $dataBaseService->getBirdsByNomVernFr($repository,$nomVer);
 
      dump($birds); die();

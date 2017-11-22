@@ -1,0 +1,76 @@
+cdNom,Taille,CouleurPlumes,CouleurPattes,CouleurBec,LongueurBec,FormeBec,EpaisseurBec,NomCommun,ImageFile,FileExtension
+3978 ;3980 ;3981 ;3982 ;3983,1,1;8;2;10;3;4 ,2,3;1;5 ,2,2,1,Accenteur mouchet,accenteur_mouchet,jpg
+3755 ;3758 :3757 ;3940 ,2,11;1;5;2;3 ,2,1,2,2,1,Bergeronnette des ruisseaux,Bergeronnette_des_ruisseaux,jpg
+3941 ;3947 ;3943,1;2,1;2;3 ,1;5,1,2;3 ,2,1,Bergeronnette grise,Bergeronnette_grise,jpg
+3741 ;3743 ;3752 ;3749 ;4642,2,1;8;5;2;3;4 ,1,1,2,2,1,Bergeronnette printanière,Bergeronnette_printaniere,jpg
+4619 ;824093 ;4622,2,7;6;1;8;2;3,1;2 ,1,1;2 ,2,1,Bouvreuil pivoine,Bouvreuil_pivoine,jpg
+4657,1;2,1;8;5;2;4 ,5,8,1,2,2,Bruant jaune,Bruant_jaune,jpg
+4659 ;4661 ;4662,1,11;1;5;2;3;4 ,5,1,2,0,2,Bruant zizi,Bruant_zizi,jpg
+2623 ;2625 ;458792,4,1;8;2;3;4 ,4,6;1,1,1,2,Buse variable,Buse_variable,jpg
+4583,1,7;1;8;5;2;3;4 ,2,7;1 ,1,2,2,Chardonneret élégant,Chardonneret_elegant,jpg
+4494 ;416696 ;4497,3,1,1,1,2,2,2;1,Choucas des tours,Choucas_des_tours,jpg
+3511 ;3514 ;3513,2,8;3;4 ,5,6;5 ,1,1,2;1,Chouette chevêche,Chouette_cheveche,jpg
+3482 ;3484 ;3485 ;3486,3;4,8;2;3;4 ,5,7;3 ,2,1,2,Chouette effraie,Chouette_effraie,jpg
+3518,4,1;8;2;3 ,4,3;5 ,1,1,2,Chouette hulotte,Chouette_hulotte,jpg
+4501,4;5,1,1,1,3,2,1,Corbeau freux,Corbeau_freux,jpg
+4503,4,1,1,1,2,2,2,Corneille noire,Corneille_noire,jpg
+2895 ;2898 ;2899 ;2897,4,6;8;2;3 ,4,6;1,2,1,2,Epervier d’Europe,Epervier_d_Europe,jpg
+4516,2,1;8;3;4 ,3,6;1;5 ,2,2,1,Etourneau sansonnet,Etourneau_sansonnet,jpg
+2669 ;2671,4,1;8;2;3;4 ,4,7;1;5 ,2,1,2,Faucon crécerelle,Faucon_crecerelle,jpg
+4257 ;4259,1,6;1;2;3;4 ,1,1,2,2,1,Fauvette à tête noire,Fauvette_a_tete_noire,jpg
+4254 ;4256,1,8;2;4 ,0,3,2,2,1,Fauvette des jardins,Fauvette_des_jardins,jpg
+4232 ;4234,1,1;8;3;4 ,3,7;8;1 ,1,2,1,Fauvette mélanocéphale,Fauvette_melanocephale,jpg
+4466 ;4470 ;4468 ;4469,3,1;8;3;4 ,2,1,2,2,2;1,Geai des chênes,Geai_des_chenes,jpg
+4319 ;782543 ;4321 ;4322,1,2;3 ,1,1,2,2,1,Gobemouche gris,Gobemouche_gris,jpg
+4330 ;4104,1,1;8;2;3;4 ,1,1,2,2,2;1,Gobemouche noir,Gobemouche_noir,jpg
+3784 ;3790 ;3786 ;3788 ;3787,1,1;8;3;4 ,2;3,7;3;1 ,3,2,1,Grimpereau des bois,Grimpereau_des_bois,jpg
+3791 ;3794 ;3793 ;3791,1,1;8;3 ,2;3,1,2,2,1,Grimpereau des jardins,Grimpereau_des_jardins,jpg
+4142 ;4144 ;4145 ;4146,2,8;2;3 ,3,3,2,2,1,Grive draine,Grive_draine,jpg
+4127,2,1;8;2;3;4 ,2,6;3 ,2,2,2;1,Grive litorne,Grive_litorne,jpg
+4137 ;4140 ;4141 ;4139,2,,0,0,0,0,0,Grive mauvis,Grive_mauvis,jpg
+4129 ;4131 ;4132 ;4133,2,8;2;3 ,3,6;1 ,2,2,1,Grive musicienne,Grive_musicienne,jpg
+4625 ;4627 ;4628,2,6;1;8;2;3;4 ,3,1,2,2,1,Grosbec casse-noyaux,Grosbec_casse-noyaux,jpg
+3688 ;3690,1,8;3;4 ,1,1,1,2,2;1,Hirondelle de rivage,Hirondelle_de_rivage,jpg
+459478 ;3703 ;3705,1,1;3 ,3,6,1,2,1,Hirondelle des fenêtres,Hirondelle_des_fenetres,jpg
+3696 ;3698,2,9;6;1;8;3 ,1,1,1,2,1,Hirondelle rustique,Hirondelle_rustique,jpg
+3590,3,6;1;3;4 ,1,1,3,2,1,Huppe fasciée,Huppe_fasciee,jpg
+3953 ;3955,2,1;8;5;2;3;4 ,1,1,2,1.2,0,Jaseur boréal,Jaseur_boreal,jpg
+4588 ;4589,1,7;1;8;3 ,1,1,1,2,2,Linotte mélodieuse,Linotte_melodieuse,jpg
+3803,2,11;1;5;3 ,1;2 ,3,2,2,2;1,Loriot d’Europe,Loriot_d_Europe,jpg
+3561 ;3558 ;3560,2,1;3 ,1,1,1,2,1,Martinet à ventre blanc,Martinet_a_ventre_blanc,jpg
+3551 ;3553 ;3554,2,1;3 ,0,1,1,2,2;1,Martinet noir,Martinet_noir,jpg
+3555 ;3557,1,1;8;2 ,0,1,1,2,2;1,Martinet pâle,Martinet_pale,jpg
+4117 ;520920,2,1,1,6;5 ,2,2,1,Merle noir,Merle_noir,jpg
+4342 ;4347 ;804727 ;4344 ;4345 ;4346 ;4348,1,9;1;8;2;3;4 ,1,1,1,2,1,Mésange à longue queue,Mesange_a_longue_queue,jpg
+534742 ;3762 ;3763 ;3760,1,11;1;5;3 ,1,1,1,2,1,Mésange bleue,Mesange_bleue,jpg
+4355 ;534752 ;442252 ;459502,1,8;3;4 ,1,1,1,2,1,Mésange boréale,Mesange_boreale,jpg
+3764 ;3767 ;3766,1,11;1;5;3 ,1,1,1,2,1,Mésange charbonnière,Mesange_charbonniere,jpg
+534750 ;4365 ;4364 ;4363 ;4366 ;2796,1,1;8;2;3;4 ,1;2 ,1,1,2,1,Mésange huppée,Mesange_huppee,jpg
+534751 ;4370 ;4369 ;3759 ;4367,1,1;2;3;4 ,1;5,1,1,2,1,Mésange noire,Mesange_noire,jpg
+534753 ;4354 ;4353 ;4351,1,1;8;2;3;4 ,1,1,1,2,1,Mésange nonnette,Mesange_nonnette,jpg
+4525 ;813827 ;728082,1,1;8;2;3;4 ,3,3;1 ,1,2,2,Moineau domestique,Moineau_domestique,jpg
+4532 ;4535 ;4534,1;2,1;8;2;3;4 ,2,1,1,2,2,Moineau friquet,Moineau_friquet,jpg
+4540 ;4542 ;4544 ;4543,1;2,1;8;3;4 ,2;5;3 ,6;3;5 ,2,0,2,Moineau soulcie,Moineau_soulcie,jpg
+3611 ;3617 ;3618 ;3607 ;3613 ;3614 ,2,7;1;3 ,1;5 ,1,3,2,1,Pic épeiche,Pic_epeiche,jpg
+3619 ;3621 ;3622,2,7;1;3 ,1,1,3,2,1,Pic mar,Pic_mar,jpg
+3608,4,7;1 ,1;5 ,7;8;1 ,3,2,2,Pic noir,Pic_noir,jpg
+3603,2,11;7;1;3 ,1,3;1 ,3,2,2,Pic vert,Pic_vert,jpg
+4474 ;4476 ;4477 ;4478,4,1;3 ,1,1,3,2,1,Pie bavarde,Pie_bavarde,jpg
+3424,4,11;9;2;3 ,3,5,2,2,1,Pigeon ramier,Pigeon_ramier,jpg
+4564 ;4566 ;4567,1,6;1;5;2;3 ,2,1,1,2,2,Pinson des arbres,Pinson_des_arbres,jpg
+4568,1,6;1;8;2;3;4 ,2,6,1,2,1,Pinson du nord,Pinson_du_nord,jpg
+3723 ;3725,1,,0,0,0,0,0,Pipit des arbres,Pipit_des_arbres,jpg
+4280 ;4282,1,5;2 ,1,3;1 ,2,2,1,Pouillot véloce,Pouillot_veloce,jpg
+4308 ;4311 ;4310 ;4313 ;4312,1,11;1;5;2;3 ,1;2 ,1,2,2,1,Roitelet huppé,Roitelet_huppe,jpg
+459638 ;4314 ;4316 ,1,11;6;1;5;2;3;4 ,1,1,2,2,1,Roitelet triple bandeau,Roitelet_triple_bandeau,jpg
+4013 ;4015 ;4017 ;4016,2,8;4 ,2;5,8;3 ,2,2,1,Rossignol philomèle,Rossignol_philomele,jpg
+4007 ;4008 ;4003 ;4001 ;4004 ;4005 ;4006,1,7;6;1;8;2;4 ,2,1,2,2,1,Rougegorge familier,Rougegorge_familier,jpg
+4040 ;4042,1,6;1;2;3 ,1,1,2,2,1,Rougequeue à front blanc,Rougequeue_a_front_blanc,jpg
+4035 ;4037 ;4038 ;4039,1,9;6;1;8;2;3 ,1,1,2,2,1,Rougequeue noir,Rougequeue_noir,jpg
+4571 ;4573,1,1;8;5 ,1,3;1 ,1,2,2,Serin cini,Serin_cini,jpg
+3774 ;3776,1,6;1;2;10;3;4 ,3,1,2;3 ,2,1,Sittelle Torchepot,Sittelle_Torchepot,jpg
+4586,1,11;1;5;2 ,2,3,1,2,1,Tarin des aulnes,Tarin_des_aulnes,jpg
+3439 ;3441,3,1;8;2;3; ,3,1,2,2,1,Tourterelle des bois,Tourterelle_des_bois,jpg
+3429 ;3431,3,1;2;3;4 ,2;3,3;1 ,2,2,2;1,Tourterelle turque,Tourterelle_turque,jpg
+3967 ;3970 ;3969,1,8;3;4 ,3,3;1 ,2,2,1,Troglodyte mignon,Troglodyte_mignon,jpg
+4580 ;4582,1,11;1;5;2 ,3,3,1,2,1,Verdier d’Europe,Verdier_d_Europe,jpg

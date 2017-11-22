@@ -1,4 +1,0 @@
-1;« Moineau, mésange »
-2;« Merle, étourneau, tourterelle »
-3;« Pigeon, corbeau, colvert, buse »
-4;« Héron, cygne, cigogne »

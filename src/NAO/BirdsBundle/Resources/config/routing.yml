@@ -29,3 +29,11 @@ nao_birds_test:
 nao_birds_test1:
   path: /test1/
   defaults: { _controller: NAOBirdsBundle:Test:test1 }
+
+nao_birds_temp_plumes:
+  path: /tempPlumes/
+  defaults: { _controller: NAOBirdsBundle:DataBuilder:couleurplumes }
+
+nao_birds_temp_pattes:
+  path: /tempPattes/
+  defaults: { _controller: NAOBirdsBundle:DataBuilder:couleurpattes }
