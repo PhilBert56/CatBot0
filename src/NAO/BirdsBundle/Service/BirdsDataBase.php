@@ -3,6 +3,7 @@
 namespace NAO\BirdsBundle\Service;
 
 use NAO\BirdsBundle\Entity\Bird;
+use NAO\BirdsBundle\Entity\VisualBird;
 
 class BirdsDataBase
 {
@@ -85,5 +86,45 @@ class BirdsDataBase
     fclose($handle);
     $this->em->flush();
   }
+
+
+
+  public function createVisualBirdTable()
+  {
+
+    echo ('database visual bird creation </br>');
+
+    /* création de la table des birdx */
+    $fileName = "..\src\NAO\BirdsBundle\Data\VisualBirdsTable.csv";
+    $defaultInt = "-1";
+
+    if (($handle = fopen($fileName, "r")) !== FALSE) {
+      while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
+
+        $bird = new VisualBird();
+
+        $bird->setcdNom($data[0]);
+        $bird->setTaille($data[1]);
+        $bird->setCouleursPlumes($data[2]);
+        $bird->setCouleursPattes($data[3]);
+        $bird->setCouleursBec($data[4]);
+        $bird->setLongueurBec($data[5]);
+        $bird->setFormeBec($data[6]);
+        $bird->setEpaisseurBec($data[7]);
+        $bird->setNomCommun($data[8]);
+        $bird->setImageFile($data[9]);
+        $bird->setFileExtension($data[10]);
+
+        $this->em->persist($bird);
+        dump($bird);
+      }
+
+    }
+    fclose($handle);
+    $this->em->flush();
+
+  }
+
+
 
 }

@@ -1,0 +1,55 @@
+NAO\BirdsBundle\Entity\VisualBird:
+    type: entity
+    table: null
+    repositoryClass: NAO\BirdsBundle\Repository\VisualBirdRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        cdNom:
+            type: string
+            length: 255
+        taille:
+            type: string
+            length: 255
+            column: Taille
+        couleursPlumes:
+            type: string
+            length: 255
+            column: CouleursPlumes
+        couleursPattes:
+            type: string
+            length: 255
+            column: CouleursPattes
+        couleursBec:
+            type: string
+            length: 255
+            column: CouleursBec
+        longueurBec:
+            type: string
+            length: 255
+            column: LongueurBec
+        formeBec:
+            type: string
+            length: 255
+            column: FormeBec
+        epaisseurBec:
+            type: string
+            length: 255
+            column: EpaisseurBec
+        nomCommun:
+            type: string
+            length: 255
+            column: NomCommun
+        imageFile:
+            type: string
+            length: 255
+            column: ImageFile
+        fileExtension:
+            type: string
+            length: 255
+            column: FileExtension
+    lifecycleCallbacks: {  }

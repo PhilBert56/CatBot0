@@ -6,6 +6,10 @@ nao_birds_taxref:
     path: /taxref
     defaults: { _controller: NAOBirdsBundle:TaxrefDataBase:index }
 
+nao_birds_visualbirdsdb:
+    path: /visualbirdscreatedb
+    defaults: { _controller: NAOBirdsBundle:VisualBirdsDataBase:index }
+
 nao_birds_getbirdsbyordre:
   path: /getbirdsbyordre/
   defaults: { _controller: NAOBirdsBundle:TestDataBaseAccess:ordre }
@@ -37,3 +41,7 @@ nao_birds_temp_plumes:
 nao_birds_temp_pattes:
   path: /tempPattes/
   defaults: { _controller: NAOBirdsBundle:DataBuilder:couleurpattes }
+
+nao_birds_test_api:
+  path: /visualbirdsAPI/
+  defaults: { _controller: NAOBirdsBundle:TestVisualBirdsAPI:test }
