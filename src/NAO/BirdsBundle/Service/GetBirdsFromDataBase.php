@@ -58,7 +58,7 @@ dump($this->em);
   public function getBirdsByNomVernFr($repository, $suggestion){
 
     $like = '%'.$suggestion.'%';
-echo ($like.'</br>');
+
     $query = $repository->createQueryBuilder('b')
       ->where('b.nomVernFr LIKE \''.$like.'\'')
       ->orderBy('b.nomVernFr', 'ASC')

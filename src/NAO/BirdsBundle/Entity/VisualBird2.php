@@ -1,58 +1,88 @@
 <?php
+
 namespace NAO\BirdsBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * VisualBird
+ *
+ * @ORM\Entity
+ * @ORM\Entity(repositoryClass="NAO\BirdsBundle\Repository\VisualBirdRepository")
  */
 class VisualBird
 {
     /**
      * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
+
     /**
      * @var string
+     *
+     * @ORM\Column(name="cdNom", type="string", length=255)
      */
     private $cdNom;
+
     /**
      * @var string
+     *
+     *@ORM\Column(name="taille", type="string", length=255)
      */
     private $taille;
+
     /**
      * @var string
      */
     private $couleursPlumes;
+
     /**
      * @var string
      */
     private $couleursPattes;
+
     /**
      * @var string
      */
     private $couleursBec;
+
     /**
      * @var string
      */
     private $longueurBec;
+
     /**
      * @var string
      */
     private $formeBec;
+
     /**
      * @var string
      */
     private $epaisseurBec;
+
     /**
      * @var string
+     *
+     * * @ORM\Column(name="nomCommun", type="string", length=255)
      */
     private $nomCommun;
+
     /**
      * @var string
      */
     private $imageFile;
+
     /**
      * @var string
      */
     private $fileExtension;
+
+
     /**
      * Get id
      *
@@ -62,6 +92,7 @@ class VisualBird
     {
         return $this->id;
     }
+
     /**
      * Set cdNom
      *
@@ -72,8 +103,10 @@ class VisualBird
     public function setCdNom($cdNom)
     {
         $this->cdNom = $cdNom;
+
         return $this;
     }
+
     /**
      * Get cdNom
      *
@@ -83,6 +116,7 @@ class VisualBird
     {
         return $this->cdNom;
     }
+
     /**
      * Set taille
      *
@@ -93,8 +127,10 @@ class VisualBird
     public function setTaille($taille)
     {
         $this->taille = $taille;
+
         return $this;
     }
+
     /**
      * Get taille
      *
@@ -104,6 +140,7 @@ class VisualBird
     {
         return $this->taille;
     }
+
     /**
      * Set couleursPlumes
      *
@@ -114,8 +151,10 @@ class VisualBird
     public function setCouleursPlumes($couleursPlumes)
     {
         $this->couleursPlumes = $couleursPlumes;
+
         return $this;
     }
+
     /**
      * Get couleursPlumes
      *
@@ -125,6 +164,7 @@ class VisualBird
     {
         return $this->couleursPlumes;
     }
+
     /**
      * Set couleursPattes
      *
@@ -135,8 +175,10 @@ class VisualBird
     public function setCouleursPattes($couleursPattes)
     {
         $this->couleursPattes = $couleursPattes;
+
         return $this;
     }
+
     /**
      * Get couleursPattes
      *
@@ -146,6 +188,7 @@ class VisualBird
     {
         return $this->couleursPattes;
     }
+
     /**
      * Set couleursBec
      *
@@ -156,8 +199,10 @@ class VisualBird
     public function setCouleursBec($couleursBec)
     {
         $this->couleursBec = $couleursBec;
+
         return $this;
     }
+
     /**
      * Get couleursBec
      *
@@ -167,6 +212,7 @@ class VisualBird
     {
         return $this->couleursBec;
     }
+
     /**
      * Set longueurBec
      *
@@ -177,8 +223,10 @@ class VisualBird
     public function setLongueurBec($longueurBec)
     {
         $this->longueurBec = $longueurBec;
+
         return $this;
     }
+
     /**
      * Get longueurBec
      *
@@ -188,6 +236,7 @@ class VisualBird
     {
         return $this->longueurBec;
     }
+
     /**
      * Set formeBec
      *
@@ -198,8 +247,10 @@ class VisualBird
     public function setFormeBec($formeBec)
     {
         $this->formeBec = $formeBec;
+
         return $this;
     }
+
     /**
      * Get formeBec
      *
@@ -209,6 +260,7 @@ class VisualBird
     {
         return $this->formeBec;
     }
+
     /**
      * Set epaisseurBec
      *
@@ -219,8 +271,10 @@ class VisualBird
     public function setEpaisseurBec($epaisseurBec)
     {
         $this->epaisseurBec = $epaisseurBec;
+
         return $this;
     }
+
     /**
      * Get epaisseurBec
      *
@@ -230,6 +284,7 @@ class VisualBird
     {
         return $this->epaisseurBec;
     }
+
     /**
      * Set nomCommun
      *
@@ -240,8 +295,10 @@ class VisualBird
     public function setNomCommun($nomCommun)
     {
         $this->nomCommun = $nomCommun;
+
         return $this;
     }
+
     /**
      * Get nomCommun
      *
@@ -251,6 +308,7 @@ class VisualBird
     {
         return $this->nomCommun;
     }
+
     /**
      * Set imageFile
      *
@@ -261,8 +319,10 @@ class VisualBird
     public function setImageFile($imageFile)
     {
         $this->imageFile = $imageFile;
+
         return $this;
     }
+
     /**
      * Get imageFile
      *
@@ -272,6 +332,7 @@ class VisualBird
     {
         return $this->imageFile;
     }
+
     /**
      * Set fileExtension
      *
@@ -282,8 +343,10 @@ class VisualBird
     public function setFileExtension($fileExtension)
     {
         $this->fileExtension = $fileExtension;
+
         return $this;
     }
+
     /**
      * Get fileExtension
      *

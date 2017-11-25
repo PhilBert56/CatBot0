@@ -1,6 +1,9 @@
 nao_observations_homepage:
     path:     /
     defaults: { _controller: NAOObservationsBundle:Default:index }
+nao_observations_localisation:
+    path:     /localisation
+    defaults: { _controller: NAOObservationsBundle:Localisation:showLocalisation }
 nao_observations_observation:
     path:     /observation
-    defaults: { _controller: NAOObservationsBundle:Observation:showLocalisation }
+    defaults: { _controller: NAOObservationsBundle:Observation:showObservation }

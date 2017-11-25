@@ -11,5 +11,7 @@ services:
     nao_birds.birdstables:
         class: NAO\BirdsBundle\Service\BirdsServices
         arguments: ["@doctrine.orm.entity_manager"]
-    nao_birds.visualbirdsapi:
-       class: NAO\BirdsBundle\Service\VisualBirdsAPI
+    nao_birds.visualbirdsmenuapi:
+       class: NAO\BirdsBundle\Service\VisualBirdsMenuAPI
+    nao_birds.visualbirdsrequestapi:
+       class: NAO\BirdsBundle\Service\VisualBirdsRequestAPI

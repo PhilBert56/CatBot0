@@ -2,12 +2,13 @@
 
 namespace NAO\BirdsBundle\Service;
 
-class VisualBirdsAPI
+class VisualBirdsMenuAPI
 {
 
 
 
   public function getVisualBirdsSizeList()
+
   {
     $birdsSizeList =[];
     $file = '..\src\NAO\BirdsBundle\Data\CodesTable\BirdsSizeTable.csv';
@@ -50,11 +51,6 @@ class VisualBirdsAPI
 
     }
 
-
-
-
-
-
     private function getAttributeListFromFile($file, $parameterRankInFile, $separator){
         $table = [];
         if (($handle = fopen($file, "r")) !== FALSE) {
@@ -64,8 +60,6 @@ class VisualBirdsAPI
         }
         return $table;
     }
-
-
 
 
 }

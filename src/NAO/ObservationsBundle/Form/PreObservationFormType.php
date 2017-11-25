@@ -16,15 +16,24 @@ class PreObservationFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
 
+
+/*
         $builder
           ->add('latitude',TextType::class,array('label' => 'preobservation.latitude'))
           ->add('longitude',TextType::class,array('label' => 'preobservation.longitude'))
-          ->add('codeTaille',TextType::class,array('label' => 'preobservation.codeTaille'))
-          ->add('codePlumes',TextType::class,array('label' => 'preobservation.codePlumes'))
-          ->add('codePattes',TextType::class,array('label' => 'preobservation.codePattes'))
-          ->add('codeBec',TextType::class,array('label' => 'preobservation.codeBec'))
+          ->add('taille','choice',array('choices'=>'preobservation.tailleMenuList', 'label' => 'preobservation.taille'))
+          ->add('couleurPlumes','choice' ,array('choices'=>'preobservation.couleursPlumeMenuList','label' => 'preobservation.couleurPlumes'))
+          ->add('couleurPattes','choice',array('choices'=>'preobservation.couleursPattesMenuList','label' => 'preobservation.couleurPattes'))
+          ->add('couleurBec','choice',array('choices'=>'preobservation.couleursBecMenuList','label' => 'preobservation.couleurBec'))
           ->add('nomVernFr',TextType::class,array('label' => 'preobservation.nomVernFr'))
           ;
+          */
+          $builder
+            ->add('latitude',TextType::class,array('label' => 'preobservation.latitude'))
+            ->add('longitude',TextType::class,array('label' => 'preobservation.longitude'))
+            
+
+;
     }
 
      /**

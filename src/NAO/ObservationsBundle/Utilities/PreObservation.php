@@ -8,10 +8,10 @@ class PreObservation{
 private $observerId;
 private $latitude;
 private $longitude;
-private $codeTaille;
-private $codePlumes;
-private $codePattes;
-private $codeBec;
+private $taille;
+private $couleurPlumes;
+private $couleurPattes;
+private $couleurBec;
 private $nomVernFr;
 
     /**
@@ -65,65 +65,65 @@ private $nomVernFr;
     /**
      * @return mixed
      */
-    public function getCodeTaille()
+    public function getTaille()
     {
-        return $this->codeTaille;
+        return $this->taille;
     }
 
     /**
      * @param mixed $codeTaille
      */
-    public function setCodeTaille($codeTaille)
+    public function setTaille($taille)
     {
-        $this->codeTaille = $codeTaille;
+        $this->taille = $taille;
     }
 
     /**
      * @return mixed
      */
-    public function getCodePlumes()
+    public function getCouleurPlumes()
     {
-        return $this->codePlumes;
+        return $this->couleurPlumes;
     }
 
     /**
      * @param mixed $codePlumes
      */
-    public function setCodePlumes($codePlumes)
+    public function setCouleurPlumes($couleurPlumes)
     {
-        $this->codePlumes = $codePlumes;
+        $this->couleurPlumes = $couleurPlumes;
     }
 
     /**
      * @return mixed
      */
-    public function getCodePattes()
+    public function getCouleurPattes()
     {
-        return $this->codePattes;
+        return $this->couleurPattes;
     }
 
     /**
      * @param mixed $codePattes
      */
-    public function setCodePattes($codePattes)
+    public function setCouleurPattes($couleurPattes)
     {
-        $this->codePattes = $codePattes;
+        $this->couleurPattes = $couleurPattes;
     }
 
     /**
      * @return mixed
      */
-    public function getCodeBec()
+    public function getCouleurBec()
     {
-        return $this->codeBec;
+        return $this->couleurBec;
     }
 
     /**
      * @param mixed $codeBec
      */
-    public function setCodeBec($codeBec)
+    public function setCouleurBec($couleurBec)
     {
-        $this->codeBec = $codeBec;
+        $this->couleurBec = $couleurBec;
     }
 
 
@@ -142,6 +142,8 @@ private $nomVernFr;
     {
         $this->nomVerFr = $nomVernFr;
     }
+
+
 
 
 

@@ -28,6 +28,7 @@ class TestDataBaseAccessController extends Controller
       $dataBaseService = $this->container->get('nao_birds.getbirds');
 
       $birds = $dataBaseService->getBirdsByCDNumber($em, $cdnom);
+
     dump($birds); die();
 
       return $this->render('NAOBirdsBundle:default:index.html.twig');
@@ -47,10 +48,12 @@ class TestDataBaseAccessController extends Controller
        $repository = $this->getDoctrine()->getRepository(Bird::class);
 
        $dataBaseService = $this->container->get('nao_birds.getbirds');
+
 echo('Nom ver = '.$nomVer.'</br>');
+
        $birds = $dataBaseService->getBirdsByNomVernFr($repository,$nomVer);
 
-     dump($birds); die();
+dump($birds); die();
        return $this->render('NAOBirdsBundle:default:index.html.twig');
 
      }

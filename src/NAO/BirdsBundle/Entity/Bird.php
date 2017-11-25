@@ -6,7 +6,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Bird
- * 
+ *
+ * @ORM\Entity
  * @ORM\Table(name="bird")
  * @ORM\Entity(repositoryClass="NAO\BirdsBundle\Repository\BirdRepository")
  */

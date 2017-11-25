@@ -42,6 +42,10 @@ nao_birds_temp_pattes:
   path: /tempPattes/
   defaults: { _controller: NAOBirdsBundle:DataBuilder:couleurpattes }
 
-nao_birds_test_api:
-  path: /visualbirdsAPI/
-  defaults: { _controller: NAOBirdsBundle:TestVisualBirdsAPI:test }
+nao_birds_menu_api:
+  path: /visualbirdsmenuAPI/
+  defaults: { _controller: NAOBirdsBundle:TestVisualBirdsMenuAPI:test }
+
+nao_birds_request_api:
+  path: /visualbirdsrequestAPI/
+  defaults: { _controller: NAOBirdsBundle:TestVisualBirdsRequestAPI:test }

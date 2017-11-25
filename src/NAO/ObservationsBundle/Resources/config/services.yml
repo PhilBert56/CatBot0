@@ -2,3 +2,5 @@ services:
 #    nao_observations.example:
 #        class: NAO\ObservationsBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+    nao_birds.ipadress:
+        class: NAO\ObservationsBundle\Service\IPService

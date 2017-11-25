@@ -12,12 +12,12 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 
 
-class ObservationController extends Controller
+class LocalisationController extends Controller
 {
   /**
-   * @Route("/observation" , name = "observation")
+   * @Route("/localisation" , name = "localisation")
    */
-    public function showObservationAction(Request $request)
+    public function showLocalisationAction(Request $request)
     {
 
         /*  Obternir position via adresse IP ?
@@ -37,25 +37,7 @@ class ObservationController extends Controller
         $preObservation->setLatitude($latitude);
         $preObservation->setLongitude($longitude);
 
-        $visualBirdsMenuService = $this->container->get('nao_birds.visualbirdsmenuapi');
-        $sizeTable = $visualBirdsMenuService->getVisualBirdsSizeList();
-        $featherColorTable = $visualBirdsMenuService->getVisualBirdsFeatherColorList();
-        $legColorTable = $visualBirdsMenuService->getVisualBirdsLegColorList();
-        $beakColorTable = $visualBirdsMenuService->getVisualBirdsBeakColorList();
-
-        //$form = $this->get('form.factory')->create(PreObservationFormType::class, $preObservation);
-
-        $form = $this->createFormBuilder($preObservation)
-        ->add('latitude',TextType::class,array('label' => 'preobservation.latitude'))
-        ->add('longitude',TextType::class,array('label' => 'preobservation.longitude'))
-        ->add('taille',ChoiceType::class,array('choices'=> $sizeTable, 'label' => 'preobservation.taille'))
-        ->add('couleurPlumes',ChoiceType::class ,array('choices'=> $featherColorTable ,'label' => 'preobservation.couleurPlumes'))
-        ->add('couleurPattes',ChoiceType::class,array('choices'=> $legColorTable,'label' => 'preobservation.couleurPattes'))
-        ->add('couleurBec',ChoiceType::class,array('choices'=> $beakColorTable,'label' => 'preobservation.couleurBec'))
-        ->add('nomVernFr',TextType::class,array('label' => 'preobservation.nomVernFr'))
-        ->getForm()
-        ;
-
+        $form = $this->get('form.factory')->create(PreObservationFormType::class, $preObservation);
 
 ;
 
